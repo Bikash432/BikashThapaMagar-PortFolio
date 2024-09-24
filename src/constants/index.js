@@ -16,13 +16,20 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
     tesla,
+    elasticrun,
+    siue,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    infosys,
+    movie,
+    breast,
+    covid,
+    transport,
+    tu
 } from "../assets";
 
 export const navLinks = [{
@@ -114,16 +121,16 @@ const technologies = [{
 const experiences = [{
         title: "Senior Software Engineer",
         company_name: "ElasticRun",
-        icon: starbucks,
-        iconBg: "#383E56",
+        icon: elasticrun,
+        iconBg: "#E6DEDD",
         date: "July 2021 - June 2023",
         points: [
             "Led the design, development, and deployment of the Central Replacement Center (CRC) for B2B procurement",
-            "and distribution, significantly improving sales and distribution efficiency",
-            "Contributed innovative solutions for system design, including microservices, AWS, and security during",
-            "management-level discussions on negative test case scenarios",
+            "and distribution, significantly improving sales and distribution efficiency. ",
+            "Contributed innovative solutions for system design, including microservices, AWS, and security during ",
+            "management-level discussions on negative test case scenarios. ",
             "Served as Scrum Master, tracking sprint progress, gathering requirements, mentoring junior developers, assisting",
-            "QA and support teams, meeting with business and developer,coding and ensuring timely project deployment.",
+            "QA and support teams, meeting with business and developer,coding and ensuring timely project deployment. ",
             "Developed high-level reports, dashboards, and APIs ensuring reliability and security; handled data cleaning",
             "analysis, data visualization, and insights presentation using data science techniques.",
         ],
@@ -131,43 +138,41 @@ const experiences = [{
     {
         title: "Full Stack Developer",
         company_name: "Infosys",
-        icon: tesla,
+        icon: infosys,
         iconBg: "#E6DEDD",
         date: "Dec 2018 - July 2021",
         points: [
             "Build and upgraded a comprehensive Insurance platform with features like user authentication, product listings,",
-            "shopping cart, payment gateway, order processing, and inventory management using React and C#.net",
+            "shopping cart, payment gateway, order processing, and inventory management using React and C#.net. ",
             "Streamlined the software development lifecycle by automating build, test, and deployment processes, reducing",
-            "time-to-market by 11% and implemented CI/CD pipelines using industry standard tools like Jenkins,GIT,AWS",
+            "time-to-market by 11% and implemented CI/CD pipelines using industry standard tools like Jenkins,GIT,AWS. ",
             "Contributed to the development of the Infosys SpringBoard using Angular, HTML5 , CSS3 and Node.js"
         ],
     },
     {
         title: "Web Developer",
         company_name: "Tribhuvan University",
-        icon: shopify,
-        iconBg: "#383E56",
+        icon: tu,
+        iconBg: "#E6DEDD",
         date: "Jan 2022 - July 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using React.js and other related technologies. ",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            " Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Personal",
-        icon: meta,
+        title: "Graduate Teaching Assistant",
+        company_name: "Southern Illinois University Edwardsville",
+        icon: siue,
         iconBg: "#E6DEDD",
         date: "July 2016 - Present",
         points: [
-            "Designed Fine-tuned CNN-based AlexNet architecture, improving disease classification accuracy by 10%",
-            "Increased the efficiency of predicting breast cancer to 97% with the given dataset.",
-            "Developed the Shell and file management system in C programming language as a college project at SIUE",
-            "Developed an Android application using Java in 2018, which had a significant impact on college projects.",
-            "Developed over 20 personal projects including a hotel management system, YouTube clone, library management",
-            "system, and COVID-19 tracker using React, Node.js, Python, SQL, Angular, JavaScript, Java, GIT, and AWS.",
+            "My primary responsibilities included supporting the course instructor in delivering lectures,",
+            "assisting with grading assignments, and providing guidance to students on data science concepts. ",
+            "Helping students understand complex topics like statistical analysis, machine learning algorithms,",
+            "and data visualization techniques. ",
         ],
     },
 ];
@@ -196,27 +201,23 @@ const testimonials = [{
 ];
 
 const projects = [{
-        name: "Car Rent",
-        description: "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        name: "Movie Recommendation",
+        description: "Online Movie Recommendation Web application System based On the Machile Learning and dataset from Kaagle.",
         tags: [{
-                name: "react",
+                name: "Hackathon Winner",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Machine Learning",
                 color: "green-text-gradient",
             },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
         ],
-        image: carrent,
+        image: movie,
         source_code_link: "https://github.com/",
     },
     {
         name: "Job IT",
-        description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        description: "Web application that enables users to search for job openings, view estimated salary ranges for positions,and locate jobs.",
         tags: [{
                 name: "react",
                 color: "blue-text-gradient",
@@ -234,8 +235,8 @@ const projects = [{
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
-        description: "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        name: "Breast Cancer Prediction",
+        description: "Reasearch on evaluating and increasing the efficiency of the breast cancer prediction using various machine learning algorithms.",
         tags: [{
                 name: "nextjs",
                 color: "blue-text-gradient",
@@ -249,9 +250,66 @@ const projects = [{
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: breast,
+        source_code_link: "https://github.com/Bikash432/CovidTracker-ReactJS.git",
     },
+    {
+        name: "Covid Tracker",
+        description: "A web based application based on React and Restful API, that tracks and shares the covid status of countries and cities around the globe.",
+        tags: [{
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: covid,
+        source_code_link: "https://github.com/Bikash432/CovidTracker-ReactJS.git",
+    },
+    {
+        name: "Client and Proxy Server",
+        description: "Developed a project to see the interaction between the client and server and analyse security threats. It is a multithreaded application tracking the network.",
+        tags: [{
+                name: "C++",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Computer Network",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Cybersecurity",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/Bikash432/Client_Proxy_Webserver.git",
+    },
+    {
+        name: "Transportation",
+        description: "Completed many projects that was associated to end-mile delivery, speed delivery and delivery and return of goodss and services in the rular part of India.",
+        tags: [{
+                name: "Python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "SQL",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: transport,
+        source_code_link: "https://github.com/Bikash432/BloodBandhan.git",
+    }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
