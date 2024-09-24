@@ -146,7 +146,7 @@ const experiences = [{
             "shopping cart, payment gateway, order processing, and inventory management using React and C#.net. ",
             "Streamlined the software development lifecycle by automating build, test, and deployment processes, reducing",
             "time-to-market by 11% and implemented CI/CD pipelines using industry standard tools like Jenkins,GIT,AWS. ",
-            "Contributed to the development of the Infosys SpringBoard using Angular, HTML5 , CSS3 and Node.js"
+            "Contributed to the development of the Infosys SpringBoard using Angular, HTML5 , CSS3 and Node.js ."
         ],
     },
     {
