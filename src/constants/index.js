@@ -119,7 +119,7 @@ const technologies = [{
 ];
 
 const experiences = [{
-        title: "Senior Software Engineer",
+        title: "ElasticRun - Senior Software Engineer",
         company_name: "ElasticRun",
         icon: elasticrun,
         iconBg: "#E6DEDD",
@@ -136,7 +136,7 @@ const experiences = [{
         ],
     },
     {
-        title: "Full Stack Developer",
+        title: "Infosys - Full Stack Developer",
         company_name: "Infosys",
         icon: infosys,
         iconBg: "#E6DEDD",
@@ -150,7 +150,7 @@ const experiences = [{
         ],
     },
     {
-        title: "Web Developer",
+        title: "Tribhuvan University - Web Developer",
         company_name: "Tribhuvan University",
         icon: tu,
         iconBg: "#E6DEDD",
@@ -163,7 +163,7 @@ const experiences = [{
         ],
     },
     {
-        title: "Graduate Teaching Assistant",
+        title: "SIUE - Graduate Teaching Assistant",
         company_name: "Southern Illinois University Edwardsville",
         icon: siue,
         iconBg: "#E6DEDD",
