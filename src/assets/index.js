@@ -53,7 +53,8 @@ import insta from "../awards/java.jpeg";
 import java from "../awards/java.jpeg";
 import sportscoor from "../awards/sportscoor.jpeg";
 import studentof from "../awards/studentof.jpeg";
-
+import infosysaward from "./infosysaward.mp4";
+import poster from "./poster.jpg";
 
 
 export {
@@ -105,5 +106,7 @@ export {
     transport,
     tu,
     insta,
-    studentof
+    studentof,
+    infosysaward,
+    poster
 };

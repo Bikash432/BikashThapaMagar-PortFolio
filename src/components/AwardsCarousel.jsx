@@ -12,7 +12,7 @@ import football from "../awards/football.jpeg";
 import gd from "../awards/gd.jpeg";
 import hadoop from "../awards/hadoop.jpeg";
 import iit from "../awards/iit.jpeg";
-import insta from "../awards/java.jpeg";
+import insta from "../awards/insta.jpg";
 import java from "../awards/java.jpeg";
 import sportscoor from "../awards/sportscoor.jpeg";
 import studentof from "../awards/studentof.jpeg";
@@ -46,8 +46,9 @@ const AwardsCarousel = () => {
     setCurrentIndex((prevIndex) => (prevIndex === awardImages.length - 1 ? 0 : prevIndex + 1));
   };
 
-  return (
+  return ( 
     <div className="carousel-container">
+      <h1 className='h1'>AWARDS</h1>
       <button className="carousel-arrow left-arrow" onClick={goToPrevious}>
         &#10094;
       </button>

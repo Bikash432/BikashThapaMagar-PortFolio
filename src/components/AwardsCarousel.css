@@ -6,6 +6,16 @@
     overflow: hidden;
 }
 
+.h1 {
+    font-weight: bold;
+    color: rgb(235, 11, 11);
+    font-size: 30px;
+    font-weight: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    /* Adjust the size as needed */
+}
+
 .carousel-slide {
     display: flex;
     justify-content: center;
