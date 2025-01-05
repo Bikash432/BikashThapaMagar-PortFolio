@@ -10,6 +10,8 @@ import Hero from "./components/Hero";
 import Tech from "./components/Tech";
 import Works from "./components/Works";
 import  StarCanvas  from "./components/canvas/Stars";
+import AwardVideo from "./components/AwardVideo";
+import AwardsCarousel from "./components/AwardsCarousel";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <AwardVideo />
+        <AwardsCarousel />
         <Experience />
         <Tech />
         <Works />
