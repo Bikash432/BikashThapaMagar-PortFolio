@@ -125,25 +125,15 @@ const experiences = [{
         iconBg: "#E6DEDD",
         date: "July 2021 - June 2023",
         points: [
-            //     "Led the design, development, and deployment of the Central Replacement Center (CRC) for B2B procurement",
-            //     "and distribution, significantly improving sales and distribution efficiency. ",
-            //     "Contributed innovative solutions for system design, including microservices, AWS, and security during ",
-            //     "management-level discussions on negative test case scenarios. ",
-            //     "Served as Scrum Master, tracking sprint progress, gathering requirements, mentoring junior developers, assisting",
-            //     "QA and support teams, meeting with business and developer,coding and ensuring timely project deployment. ",
-            //     "Developed high-level reports, dashboards, and APIs ensuring reliability and security; handled data cleaning",
-            //     "analysis, data visualization, and insights presentation using data science techniques.",
-            // ],
-            " ● Led the Central Replacement Center (CRC) project: Architected a B2C procurement and distribution system, ",
-            "improving distribution efficiency by 35%. ",
-            "● Improved system design: Developed microservices with AWS and implemented security strategies for robust ",
-            "application architecture, reducing negative test case errors by 20%.",
-            " ● Scrum Master: Facilitated agile processes, tracked sprint progress, and mentored junior developers, resulting in a ",
-            " 15% productivity increase. ",
-            " ● Enhanced reporting & analytics: Built secure dashboards and APIs, using data science techniques for insights, ",
-            " reducing reporting time by 30%. ",
+            "Led the design, development, and deployment of the Central Replacement Center (CRC) for B2B procurement",
+            "and distribution, significantly improving sales and distribution efficiency. ",
+            "Contributed innovative solutions for system design, including microservices, AWS, and security during ",
+            "management-level discussions on negative test case scenarios. ",
+            "Served as Scrum Master, tracking sprint progress, gathering requirements, mentoring junior developers, assisting",
+            "QA and support teams, meeting with business and developer,coding and ensuring timely project deployment. ",
+            "Developed high-level reports, dashboards, and APIs ensuring reliability and security; handled data cleaning",
+            "analysis, data visualization, and insights presentation using data science techniques.",
         ],
-
     },
     {
         title: "Infosys - Full Stack Developer",
@@ -152,20 +142,11 @@ const experiences = [{
         iconBg: "#E6DEDD",
         date: "Dec 2018 - July 2021",
         points: [
-            // "Build and upgraded a comprehensive Insurance platform with features like user authentication, product listings,",
-            // "shopping cart, payment gateway, order processing, and inventory management using React and C#.net. ",
-            // "Streamlined the software development lifecycle by automating build, test, and deployment processes, reducing",
-            // "time-to-market by 11% and implemented CI/CD pipelines using industry standard tools like Jenkins,GIT,AWS. ",
-            // "Contributed to the development of the Infosys SpringBoard using Angular, HTML5 , CSS3 and Node.js ."
-
-            "● Developed an Insurance Platform: Integrated features like user authentication, shopping cart, and payment",
-            "gateway using React and C#.net, enhancing customer experience.",
-            "● Awarded Infosys Insta Award: Recognized for automating business processes using Python and PowerShell,",
-            "reducing operational costs by 12%. \n",
-            "● Streamlined SDLC: Reduced time-to-market by 11% with CI/CD pipelines in Jenkins, Git, and AWS,Comunda. \n",
-            "● Infosys SpringBoard: Contributed to a learning platform using Angular, HTML5, CSS3, and Node.js, supporting",
-            "over 10,000 active users."
-
+            "Build and upgraded a comprehensive Insurance platform with features like user authentication, product listings,",
+            "shopping cart, payment gateway, order processing, and inventory management using React and C#.net. ",
+            "Streamlined the software development lifecycle by automating build, test, and deployment processes, reducing",
+            "time-to-market by 11% and implemented CI/CD pipelines using industry standard tools like Jenkins,GIT,AWS. ",
+            "Contributed to the development of the Infosys SpringBoard using Angular, HTML5 , CSS3 and Node.js ."
         ],
     },
     {
@@ -292,8 +273,8 @@ const projects = [{
         source_code_link: "https://github.com/Bikash432/CovidTracker-ReactJS.git",
     },
     {
-        name: "Client and Proxy Server",
-        description: "Developed a project to see the interaction between the client and server and analyse security threats. It is a multithreaded application tracking the network.",
+        name: "Online Hotel Booking",
+        description: "A web application developed to view and book hotels and register can application.I had developed it few years back and still working on it. ",
         tags: [{
                 name: "C++",
                 color: "blue-text-gradient",
